@@ -104,6 +104,11 @@
 
 #pragma mark -
 #pragma mark Setup Frame/Layout
+- (void)setFont:(UIFont *)font
+{
+	_font = font;
+	toggleLayer.font = font;
+}
 
 - (void)sizeToFit
 {

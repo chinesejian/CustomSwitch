@@ -23,7 +23,7 @@
 	switch1.offText = @"Unlike";
 	switch1.onText = @"Like";
 	switch1.onTintColor = [UIColor redColor];
-	switch1.font = [UIFont boldSystemFontOfSize:12];
+	switch1.font = [UIFont boldSystemFontOfSize:20];
 	[self.view addSubview:switch1];
 }
 
